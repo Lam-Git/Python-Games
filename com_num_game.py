@@ -1,6 +1,6 @@
 import random
 
-
+# The computer will guess the number and you can direct the correct number.
 def computer_guess(x):
     low = 1
     high = x
@@ -21,4 +21,5 @@ def computer_guess(x):
     print(f"Yay! The computer guessed your number, {guess}, correctly!")
 
 
+# This can be any value
 computer_guess(10)
