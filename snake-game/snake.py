@@ -83,6 +83,7 @@ def move():
         head.setx(x + 20)
 
 
+# Event handlers
 wn.listen()
 wn.onkeypress(go_up, "w")
 wn.onkeypress(go_down, "s")
