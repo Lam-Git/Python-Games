@@ -11,7 +11,7 @@ high_score = 0
 # Creating a window screen
 
 wn = turtle.Screen()
-wn = title("Snake Game by Lam")
+wn.title("Snake Game by Lam Nguyen")
 wn.bgcolor("black")
 
 # the width and height can be put as user's choice.
