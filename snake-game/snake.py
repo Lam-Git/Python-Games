@@ -1,5 +1,3 @@
-# https://www.geeksforgeeks.org/create-a-snake-game-using-turtle-in-python/?ref=rp
-
 import turtle
 import time
 import random
@@ -20,7 +18,7 @@ wn.tracer(0)  # Turns off the screen updates
 
 # Head of the snake
 head = turtle.Turtle()
-head.shape("turtle")
+head.shape("turtle")  # The snake can be change
 head.color("white")
 head.penup()
 head.goto(0, 0)
@@ -144,7 +142,7 @@ while True:
         # Shorten the delay
         delay -= 0.001
 
-        # Increase the score
+        # Increase the score & content for the score board.
         score += 10
         if score > high_score:
             high_score = score

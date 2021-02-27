@@ -1,6 +1,8 @@
 #Simple Snake Game in Python3 using Turtle
 
+Source :
 https://gist.github.com/wynand1004?page=1
+https://www.geeksforgeeks.org/create-a-snake-game-using-turtle-in-python/?ref=rp
 
 A snake game is an arcade maze game which has been developed by Gremlin Industries and published by Sega in October 1976. It is considered to be a skillful game and has popularized among people for generations. The snake in the Snake game is controlled using the four direction buttons relative to the direction it is headed in. The player’s objective in the game is to achieve maximum points as possible by collecting food or fruits. The player loses once the snake hits the wall or hits itself.
 
@@ -8,8 +10,16 @@ For the python beginners, those who are interested in making something easier in
 
 So, we will be creating a Python-based-game using the following modules:
 
-Turtle: It is a pre-installed python library that enables users to create shapes and pictures by providing them a virtual canvas.
+    Turtle: It is a pre-installed python library that enables users to create shapes and pictures by providing them a virtual canvas.
 
-Time: This function is used to count the number of seconds elapsed since the epoch.
+    Time: This function is used to count the number of seconds elapsed since the epoch.
 
-Random: This function is used to generate random numbers in Python by using random module.
+    Random: This function is used to generate random numbers in Python by using random module.
+
+    Objective: "Move the snake to the bate and keep going without crashing into its tail or the boarder. "
+
+    CONTROLS:
+            W- UP
+            S-DOWN
+            D-RIGHT
+            A-LEFT

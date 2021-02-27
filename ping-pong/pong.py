@@ -3,7 +3,7 @@
 import turtle
 import os
 
-# Create Screen
+# Create Screen for the Game:
 wn = turtle.Screen()
 wn.title("Pong by Lam Nguyen")
 wn.bgcolor("black")
@@ -32,14 +32,14 @@ paddle_b.goto(350, 0)
 # Ball
 ball = turtle.Turtle()
 ball.speed(0)
-ball.shape("turtle")  # can be any shape we choose.
-ball.color("red")
+ball.shape("turtle")  # can be any shape.
+ball.color("red")  # color of shape
 ball.penup()
 ball.goto(0, 0)
 ball.dx = 1  # the ball will move 2 mag pix
 ball.dy = -1
 
-# Pen
+# Pen - score board
 pen = turtle.Turtle()
 pen.speed(0)
 pen.color("green")
