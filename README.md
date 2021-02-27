@@ -11,10 +11,10 @@ How can you increase your chances of success? By building Python projects. That 
 4. Rock Paper Scissors
 5. Hangman
 6. Tic-Tac-Toe
-7. Tic-Tac-Toe AI
-8. Binary Search
-9. Minesweeper
-10. Sudoku Solver
-11. Photo Manipulation in Python
-12. Markov Chain Text Composer
-13. Ping Pong
+7. Binary Search
+
+8. Minesweeper
+9. Sudoku Solver
+10. Photo Manipulation in Python
+11. Markov Chain Text Composer
+12. Ping Pong

@@ -1,6 +1,6 @@
 import math
 import time
-from player import HumanPlayer, RandomComputerPlayer, SmartComputerPlayer
+from data import HumanPlayer, RandomComputerPlayer, SmartComputerPlayer
 
 
 class TicTacToe:
@@ -94,8 +94,12 @@ def play(game, x_player, o_player, print_game=True):
         print("It's a tie!")
 
 
+# User can change the value to either "HumanPlayer, RandomComputerPlayer, SmartComputerPlayer"
+# x_player = HumanPlayer("X")  ,  x_player = RandomComputerPlayer("X"), x_player = SmartComputerPlayer("X")
+# o_player = HumanPlayer("O") ,  o_player = RandomComputerPlayer("O"), o_player = SmartComputerPlayer("O")
+
 if __name__ == "__main__":
-    x_player = SmartComputerPlayer("X")
-    o_player = HumanPlayer("O")
+    x_player = RandomComputerPlayer("X")  # values can be change
+    o_player = HumanPlayer("O")  # values can be change
     t = TicTacToe()
     play(t, x_player, o_player, print_game=True)

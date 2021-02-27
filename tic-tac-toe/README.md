@@ -5,7 +5,9 @@ Game board a 9×9 board
 key: 1-9
 
 1. game.py
-   This game is between the user and the computer
+   This game can be between either two users or computerAI
+   -HumanPlayer,
+   -RandomComputerPlayer,
+   -SmartComputerPlayer
 
-2. player.py
-   This is all the data used for the game.py.
+\*data.py = Blueprint/data for game.py
