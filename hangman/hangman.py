@@ -1,5 +1,6 @@
 import random
 from words import words
+from hangman_visual import lives_visual_dict
 import string
 
 
@@ -12,17 +13,17 @@ def get_valid_word(words):
 
 
 def hangman():
-    word = get_valid_word(words)
+    word = get_valid_word(words)  # this is from the word list from "words.py"
     word_letters = set(word)  # letters in the word
     alphabet = set(string.ascii_uppercase)
     used_letters = set()  # what the user has guessed
 
-    lives = 8
+    lives = 7
 
     # getting user input
-    # taking out the words that has been already used
     while len(word_letters) > 0 and lives > 0:
         # letters used
+        # ' '.join(['a', 'b', 'cd']) --> 'a b cd'
         print(
             "You have",
             lives,
@@ -30,11 +31,12 @@ def hangman():
             " ".join(used_letters),
         )
 
-        # what the current word is (ie W-D-L)
+        # what current word is (ie W - R D)
         word_list = [letter if letter in used_letters else "-" for letter in word]
+        print(lives_visual_dict[lives])
         print("Current word: ", " ".join(word_list))
 
-        user_letter = str(input("Guess a letter: ")).upper()
+        user_letter = input("Guess a letter: ").upper()
         if user_letter in alphabet - used_letters:
             used_letters.add(user_letter)
             if user_letter in word_letters:
@@ -49,10 +51,11 @@ def hangman():
             print("\nYou have already used that letter. Guess another letter.")
 
         else:
-            print("Invalid character. Please try again! ")
+            print("\nThat is not a valid letter.")
 
     # gets here when len(word_letters) == 0 OR when lives == 0
     if lives == 0:
+        print(lives_visual_dict[lives])
         print("You died, sorry. The word was", word)
     else:
         print("YAY! You guessed the word", word, "!!")
