@@ -2,12 +2,12 @@ Pong is one of the most famous arcade games, simulating table tennis. Each playe
 
 Turtle is an inbuilt graphic module in Python. It uses a panel and pen to depict illustrations.
 
-Here are the control:
+Here are the control: (pong.py)
 
 Left paddle:
-w - up
-s - down
+W - up
+S - down
 
 Right paddle:
-Key up
-Key down
+Arrow Key-up
+Arrow Key-down
