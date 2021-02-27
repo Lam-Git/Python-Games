@@ -5,16 +5,12 @@
 Learning Python can be difficult. You can spend time reading a textbook or watching videos, but then struggle to actually put what you've learned into practice. Or you might spend a ton of time learning syntax and get bored or lose motivation.
 How can you increase your chances of success? By building Python projects. That way you're learning by actually doing what you want to do!
 
-1. Madlibs
-2. Guess the Number (computer)
-3. Guess the Number (user)
-4. Rock Paper Scissors
-5. Hangman
-6. Tic-Tac-Toe
-7. Binary Search
-
-8. Minesweeper
-9. Sudoku Solver
-10. Photo Manipulation in Python
-11. Markov Chain Text Composer
-12. Ping Pong
+1. Hangman
+2. Madlibs
+3. Guess the Number (computer)
+4. Guess the Number (user)
+   5.Ping Pong
+5. Rock Paper Scissors
+6. Snake
+7. Tic-Tac-Toe
+8. Binary Search
