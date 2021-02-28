@@ -7,10 +7,10 @@ How can you increase your chances of success? By building Python projects. That 
 
 1. Hangman
 2. Madlibs
-3. Guess the Number (computer)
-4. Guess the Number (user)
+3. Mindsweeper
+4. Guess the Number (computer)
+   4a. Guess the Number (user)
    5.Ping Pong
 5. Rock Paper Scissors
 6. Snake
 7. Tic-Tac-Toe
-8. Binary Search
